@@ -14,5 +14,14 @@ return {
     config = function()
       vim.g.transparent_enabled = true
     end
+  },
+  {
+    "lukas-reineke/indent-blankline.nvim",
+    lazy=false,
+    opts = {
+      -- Requires treesitter
+      -- show_current_context = true,
+      -- show_current_context_start = true,
+    }
   }
 }
